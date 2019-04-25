@@ -1,7 +1,7 @@
 /* common styles */
 
 body {
-    margin: 0;
+    margin: 0px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -53,7 +53,6 @@ body {
     
 }
 
-
 .links-wrapper > .nav-link {
     width: 70px;
     text-align: center;
@@ -65,7 +64,6 @@ body {
     text-decoration: none;
     transition: 0.5s;
 }
-
 
 .links-wrapper > .nav-link a:hover {
     color: #cea135;
@@ -92,6 +90,13 @@ body {
 
 
 
+.navigation-wrapper > .right-column {
+    display: flex;
+    align-items: center;
+}
+
+
 .navigation-wrapper > .right-column > .address-wrapper {
     font-family: 'Ubuntu Condensed', sans-serif;
 }
+
