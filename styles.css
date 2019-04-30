@@ -89,7 +89,6 @@ body {
 
 
 
-
 .navigation-wrapper > .right-column {
     display: flex;
     align-items: center;
@@ -98,5 +97,6 @@ body {
 
 .navigation-wrapper > .right-column > .address-wrapper {
     font-family: 'Ubuntu Condensed', sans-serif;
+    text-align: right;
 }
 
