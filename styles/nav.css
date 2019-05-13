@@ -1,11 +1,3 @@
-/* common styles */
-
-body {
-    margin: 0px;
-    font-family: 'Roboto', sans-serif;
-}
-
-
 /* Common nav styles */
 
 .navigation-wrapper {
@@ -19,7 +11,7 @@ body {
 }
 
 
-
+/* +++++++++++++++++++ Left ++++++++++++++++++++++++++++ */
 .navigation-wrapper > .left-column {
     display: flex;
     align-items: center;
@@ -43,9 +35,7 @@ body {
     font-family: 'Ubuntu Condensed', sans-serif;
 }
 
-
-
-
+/* +++++++++++++++++++ Center +++++++++++++++++++++++ */
 .links-wrapper {
     display: flex;
     align-items: center;
@@ -89,6 +79,7 @@ body {
 
 
 
+/* ++++++++++++++++++ Right ++++++++++++++++++++++++ */
 .navigation-wrapper > .right-column {
     display: flex;
     align-items: center;
@@ -100,3 +91,28 @@ body {
     text-align: right;
 }
 
+.navigation-wrapper > .right-column > .address-wrapper a{
+    color: #858585;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: 0.5s;
+}
+
+.navigation-wrapper > .right-column > .address-wrapper a:hover {
+    color: #cea135;
+
+}
+
+.navigation-wrapper > .right-column > .contact-icon {
+    margin-left: 15px;
+    font-size: 2em;
+}
+
+.navigation-wrapper > .right-column > .contact-icon a {
+    color: #cbcbcb;
+    transition: 0.5s;
+}
+
+.navigation-wrapper > .right-column > .contact-icon a:hover {
+    color: #cea135;
+}
