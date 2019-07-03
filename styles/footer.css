@@ -1,0 +1,57 @@
+.footer {
+    background: #11122b;
+    color: #cbcbcb;
+    font-family: "ubuntu condensed", sans-serif;
+    display: flex;
+    justify-content: center;
+    /* centers horizontally */
+    align-items: center;
+    /* centers vertically */
+    /* flexbox sets divs as a row by default, to set them in the direction you want use flex-direction. */
+    flex-direction: column;
+    height: 400px;
+    margin-top: -4px;
+}
+
+.footer>.logo-footer img {
+    width: 216px;
+    height: 100%;
+    /*'filter: brightness(50%);*/
+    opacity: 0.5;
+}
+
+.footer>.footer-phone-hours span {
+    margin-left: 10px;
+    margin-right: 10px;
+    foot-size: 1em;
+    letter-spacing: 2px;
+}
+
+.footer>footer-phone-hours>.hours {
+    foot-size: 0.8em;
+    color: #cea135;
+    text-transform: uppercase;
+}
+
+.footer>.links-wrapper {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 400px;
+}
+
+.footer>.social-media-icons-wrapper {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer>.social-media-icons-wrapper a {
+    font-size: 1.5em;
+    color: #cbcbcb;
+}
+
+.footer>.social-media-icons-wrapper a:hover {
+    color: #cea135
+}
