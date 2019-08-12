@@ -18,7 +18,8 @@
     <link rel="stylesheet" href="styles/skewed-header.css">
     <link rel="stylesheet" href="styles/page-container.css">
     <link rel="stylesheet" href="styles/footer.css">
-    <link rel="stylesheet" href="styles/helper.css">
+    <link rel="stylesheet" href="styles/helpers.css">
+    <link rel="stylesheet" href="styles/contact.css">
 
 </head>
 
@@ -54,7 +55,49 @@
     </div>
 
     <div class="page-container">
-      I'm in the page content
+      <div class="contact-grid-wrapper">
+        <div class="company-metadata-sidebar-wrapper">
+          <div class="logo">
+            <img src="images/logos/dark_logo_transparent_background.png" alt="logo">
+          </div>
+
+          <div class="company-details-wrapper">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              330 Auburn Ave <br>
+              Atlanta, Ga 30018
+            </div>
+          </div> 
+          <div class="company-details-wrapper">
+            <i class="fas fa-phone-volume"></i>
+            <div>
+              333 555 7777
+            </div>
+          </div> 
+          <div class="company-details-wrapper">
+            <i class="fas fa-clock"></i>
+            10 AM - MIDNIGHT
+          </div> 
+        </div> 
+
+        <div class="form">
+           <div class="form-group">
+              <input type="text" id="fullName" placeholder="Your Name">
+              <label For="fullName">Your Name</label>
+           </div>
+           <div class="form-group">
+              <input type="email" id="email" placeholder="Your Email">
+              <label For="email">Your Email</label>
+           </div>
+           <div class="form-group">
+              <textarea name="message" id="message" placeholder="Message"></textarea>
+              <label for="message">Message</label>
+           </div>
+           <div class="centered-btn-wrapper">
+              <button type="submit">Send</button> 
+           </div>
+        </div>
+      </div> 
     </div>
 
     <div class="spacer60"></div>

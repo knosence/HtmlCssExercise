@@ -6,7 +6,6 @@
 }
 
 .anchor-link {
-<<<<<<< HEAD
     text-decoration: none;
 }
 
@@ -22,20 +21,4 @@
     font-family: "Font Awesome 5 free";
     content: " \f0c1";
     font-weight: 900;
-=======
-  text-decoration: none;
-}
 
-
-.anchor-link:focus{
-  outline: none;
-}
-
-.anchor-link h1::after{
-  font-family: "Font Awesome 5 free";
-  content:" \f0c1";
-  font-weight: 900;
-  
-  
->>>>>>> 6ddfe8621821df6340c0e453ee37fb830421abaa
-}
